@@ -1,4 +1,6 @@
 
+Fill the exercices, you can guess what to do in the test folder
+
 > To install the environment
 ``` bash
 sh install.sh && npm install
