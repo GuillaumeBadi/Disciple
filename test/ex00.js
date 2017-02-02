@@ -1,6 +1,6 @@
 
 import { expect } from 'chai'
-import exercice, { add, divide, multiply } from '../exercices/ex00'
+import exercice, { add, divide } from '../exercices/ex00'
 
 describe('Ex00', () => {
 
@@ -14,6 +14,14 @@ describe('Ex00', () => {
 
   it('Should Export the add function', () => (
     expect(add).to.be.a('function')
+  ))
+
+  it('Should add two numbers', () => (
+    expect(add(1,2)).to.equal(3)
+  ))
+
+  it('Should divide two numbers', () => (
+    expect(divide(4, 2)).to.equal(2)
   ))
 
 })
