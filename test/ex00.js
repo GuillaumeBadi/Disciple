@@ -20,6 +20,10 @@ describe('Ex00', () => {
     expect(add(1,2)).to.equal(3)
   ))
 
+  it('Should add two numbers', () => (
+    expect(exercice(1,2)).to.equal(3)
+  ))
+
   it('Should divide two numbers', () => (
     expect(divide(4, 2)).to.equal(2)
   ))
